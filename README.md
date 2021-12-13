@@ -8,22 +8,22 @@ Data: Some insights into big pharma companies financial performance.
 
 * * *
 ### Contribution
-- Greta Benetazzo XXXXXXX: Beamer Presentation
+- Greta Benetazzo 20-741-104: Beamer Presentation
 - Nils Frutiger 16-114-472: LaTeX Report with Heatmap
-- Antoine Geiller xxxxxxxx: API and visualisations
+- Antoine Geiller 16-507-881: API and visualisations
 
 * * *
 # Structure of Project
 
-    .
-    |── text                # Documentation files
-	│   ├── presentation        # Presentation of project
-    │   └── report              # Report of project
+    .            
     ├── data                # Data used for our analysis
     ├── src                 # Code that performs analysis
 	│   └── output              # Charts outputted from code
 	├── temp                # Files of previous project
-    │   └── reports             # Research from previous project   
+    │   └── reports          # Research from previous project  
+    |── text                 # Documentation files 
+    │   ├── presentation        # Presentation of project
+    │   └── report            # Report of project
     └── README.md
 	
 

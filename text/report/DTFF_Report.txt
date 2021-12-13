@@ -45,15 +45,15 @@ LATEX template for group project\\[1cm]
 {\bf Digital Tools for Finance } \\
 {\bf at the University of Zurich} \\[0.5cm]
 by\\
-Igor Pozdeev and Dimitry Borisenko\\[2.5cm]
+Igor Pozdeev\\[2.5cm]
 }
 
 
 \hspace{1cm}\begin{minipage}[h]{12cm}
 \begin{tabbing}
-Authors: \hspace{1cm} \= Greta Benezzo XXXXXXXX \\
+Authors: \hspace{1cm} \= Greta Benezzo 20-741-104\\
 \> Nils Frutiger 16-114-472 \\
-\> Antoine Geiller XXXXXXXX \\
+\> Antoine Geiller 16-507-881 \\
 Field of Study: \> Banking and Finance \\
 Subm. Date: \> 15.12.2021 \\
 \end{tabbing}
@@ -133,7 +133,7 @@ This is a beautiful table:
 
 This is a figure:
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\label{figure1}
 	\includegraphics[width=0.9\textwidth]{weights.png}
@@ -141,13 +141,13 @@ This is a figure:
 	{Source: Web}
 \end{figure}
 
+\newpage
 
-\newline
 
 another nice figure created by Antoine:
-\newline
 
-\begin{figure}[h]
+
+\begin{figure}[h!]
 	\centering
 	\label{figure2}
 	\includegraphics[width=0.9\textwidth]{price.png}
@@ -155,18 +155,19 @@ another nice figure created by Antoine:
 	{Source: Web}
 \end{figure}
 
-
+\newpage
 one last figure:
-\newline
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\label{figure3}
 	\includegraphics[width=0.9\textwidth]{performance.png}
 	\caption{performance}
 	{Source: Web}
 \end{figure}
+
+\newpage
 
 \subsection{heatmap}
 
@@ -186,7 +187,7 @@ y_i = x_i'\beta + u_i
 
 \section{Conlusion}
 
-\cite{DevenowRationalHerdingInFinancialEconomics}
+\blindtext
 
 \newpage
 

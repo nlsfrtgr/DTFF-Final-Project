@@ -26,12 +26,12 @@
 \frametitle{Team}
 
 \textbf{Nils Frutiger} \\
-Matr.
+Matr. 16-114-472
 
 \vspace{5mm}
 
 \textbf{Antoine Geiller} \\
-Matr.
+Matr. 16-507-881
 
 \vspace{3mm}
 
