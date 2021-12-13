@@ -16,6 +16,14 @@ from dateutil.relativedelta import relativedelta
 import os
 
 def get_database (): 
+    """
+    
+
+    Give the stock price of five stocks
+    -------
+    None.
+
+    """
 
     list_tickers=['AAPL','INTC','F','PFE','T']
     tickers = yf.Tickers(list_tickers)
