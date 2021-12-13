@@ -8,7 +8,7 @@ Data: Some insights into big pharma companies financial performance.
 
 * * *
 ### Contribution
-- Greta Benetazzo XXXXXXX: Beamer Presentation
+- Greta Benetazzo 20-741-104: Beamer Presentation
 - Nils Frutiger 16-114-472: LaTeX Report with Heatmap
 - Antoine Geiller xxxxxxxx: API and visualisations
 
