@@ -1,0 +1,183 @@
+\documentclass[12pt,a4paper]{article}
+
+
+%% Graphics
+\usepackage{graphicx}
+
+\usepackage[]{blindtext}
+
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{threeparttable}
+\usepackage{rotating}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{import}
+\usepackage{tikz}
+\usepackage{collcell}
+
+\usepackage[
+    backend=biber,
+    style=bwl-FU,
+    url=false,
+    doi=false,
+    eprint=false
+]{biblatex}
+
+\addbibresource{references_DTFF.bib}
+
+%% to avoid messy linebreaks
+\sloppy
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\ \vspace{1.0cm}
+\begin{center}
+{\LARGE
+Digital Tools for Finance: \\[0.1cm]
+LATEX template for group project\\[1cm]
+}
+
+{
+{\bf Assignment of the course \\[0.5cm]
+{\bf Digital Tools for Finance } \\
+{\bf at the University of Zurich} \\[0.5cm]
+by\\
+Igor Pozdeev and Dimitry Borisenko\\[2.5cm]
+}
+
+
+\hspace{1cm}\begin{minipage}[h]{12cm}
+\begin{tabbing}
+Authors: \hspace{1cm} \= Greta Benezzo XXXXXXXX \\
+\> Nils Frutiger 16-114-472 \\
+\> Antoine Geiller XXXXXXXX \\
+Field of Study: \> Banking and Finance \\
+Subm. Date: \> 15.12.2021 \\
+\end{tabbing}
+\end{minipage}
+\end{center}
+\newpage
+
+\begin{abstract}
+\blindtext
+\Blindtext
+
+\end{abstract}
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\blindtext
+
+\newpage
+
+\section{Text}
+
+
+\cite{DevenowRationalHerdingInFinancialEconomics} once explained that 
+\Blindtext
+
+\newpage
+
+\section{Table}
+
+This is a table:
+
+\begin{table}[h]
+	\centering
+	\caption{total non-financial debt as percentage of GDP}
+	\label{Debt_data}
+	\begin{tabular}{l|rrr|rr}
+		\midrule
+		\multicolumn{1}{r}{} & \multicolumn{3}{c|}{Levels} & \multicolumn{2}{c}{Changes} \\
+		\cmidrule{2-6}    \multicolumn{1}{r}{} & \multicolumn{1}{c}{2000} & \multicolumn{1}{c}{2010} & \multicolumn{1}{c|}{2019} & \multicolumn{1}{c}{2000-10} & \multicolumn{1}{c}{2010-19} \\
+		\midrule
+		Switzerland & 241   & 243   & 284   & 2     & 41 \\
+		United States & 186   & 250   & 250   & 65    & 0 \\
+		Germany & 187   & 199   & 181   & 12    & -18 \\
+		Norway & 184   & 270   & 270   & 86    & 0 \\
+		France & 197   & 266   & 329   & 69    & 63 \\
+		Austria & 196   & 238   & 226   & 42    & -12 \\
+		Australia & 154   & 204   & 236   & 50    & 32 \\
+		Spain & 173   & 285   & 268   & 112   & -17 \\
+		Sweden & 201   & 269   & 289   & 68    & 20 \\
+		Japan & 313   & 342   & 380   & 29    & 38 \\
+		Italy & 192   & 248   & 258   & 56    & 10 \\
+		United Kingdom & 180   & 267   & 275   & 87    & 8 \\
+		\midrule
+		Advanced Economies\footnotemark[2] & 212   & 254   & 272   & 42    & 18 \\
+			\end{tabular}%
+	\label{tab:total non financial debt as percentage of GDP}%
+\end{table}%
+
+\newpage
+
+\subsection{Explanations}
+
+\blindtext
+
+\newpage
+
+\section{figure}
+
+This is a figure:
+
+\begin{figure}[h]
+	\centering
+	\label{figure1}
+	\includegraphics[width=0.9\textwidth]{line-graph.jpg}
+	\caption{line graph}
+	{Source: Web}
+	\label{fig:basicgrowthreg}
+\end{figure}
+
+
+\subsection{heatmap}
+
+\import{./}{heatmap.txt}
+
+\newpage
+
+\section{some smart formulas}
+
+The well known Pythagorean theorem \(x^2 + y^2 = z^2\)
+
+A beautiful formula
+
+\begin{equation}
+y_i = x_i'\beta + u_i
+\end{equation}
+
+\section{Conlusion}
+
+\cite{DevenowRationalHerdingInFinancialEconomics}
+
+\newpage
+
+
+\section{Bibliography}
+\printbibliography
+
+\begin{description}
+\item
+\end{description}
+
+\vspace{0.8cm}
+
+\newpage
+\appendix
+\section{Appendix }
+
+Additional material...
+\end{document}
+
+
+
