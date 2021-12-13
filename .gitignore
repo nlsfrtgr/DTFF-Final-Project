@@ -1,0 +1,8 @@
+#gitignore file for DTFF Project
+
+*.aux
+*.bbl
+*.log
+*.bcf
+*.blg
+*.xml
