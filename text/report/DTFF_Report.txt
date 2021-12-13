@@ -45,15 +45,15 @@ LATEX template for group project\\[1cm]
 {\bf Digital Tools for Finance } \\
 {\bf at the University of Zurich} \\[0.5cm]
 by\\
-Igor Pozdeev and Dimitry Borisenko\\[2.5cm]
+Igor Pozdeev\\[2.5cm]
 }
 
 
 \hspace{1cm}\begin{minipage}[h]{12cm}
 \begin{tabbing}
-Authors: \hspace{1cm} \= Greta Benezzo XXXXXXXX \\
+Authors: \hspace{1cm} \= Greta Benezzo 20-741-104\\
 \> Nils Frutiger 16-114-472 \\
-\> Antoine Geiller XXXXXXXX \\
+\> Antoine Geiller 16-507-881 \\
 Field of Study: \> Banking and Finance \\
 Subm. Date: \> 15.12.2021 \\
 \end{tabbing}
@@ -84,12 +84,15 @@ Subm. Date: \> 15.12.2021 \\
 
 \cite{DevenowRationalHerdingInFinancialEconomics} once explained that 
 \Blindtext
+\newline
+Some info about corona virus from \cite{corona}. Also here is a text written by \cite{women} about women in the swiss economy.
+
 
 \newpage
 
 \section{Table}
 
-This is a table:
+This is a beautiful table:
 
 \begin{table}[h]
 	\centering
@@ -130,15 +133,41 @@ This is a table:
 
 This is a figure:
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\label{figure1}
-	\includegraphics[width=0.9\textwidth]{line-graph.jpg}
-	\caption{line graph}
+	\includegraphics[width=0.9\textwidth]{weights.png}
+	\caption{weights}
 	{Source: Web}
-	\label{fig:basicgrowthreg}
 \end{figure}
 
+\newpage
+
+
+another nice figure created by Antoine:
+
+
+\begin{figure}[h!]
+	\centering
+	\label{figure2}
+	\includegraphics[width=0.9\textwidth]{price.png}
+	\caption{prices}
+	{Source: Web}
+\end{figure}
+
+\newpage
+one last figure:
+
+
+\begin{figure}[h!]
+	\centering
+	\label{figure3}
+	\includegraphics[width=0.9\textwidth]{performance.png}
+	\caption{performance}
+	{Source: Web}
+\end{figure}
+
+\newpage
 
 \subsection{heatmap}
 
@@ -149,7 +178,7 @@ This is a figure:
 \section{some smart formulas}
 
 The well known Pythagorean theorem \(x^2 + y^2 = z^2\)
-
+\newline
 A beautiful formula
 
 \begin{equation}
@@ -158,7 +187,7 @@ y_i = x_i'\beta + u_i
 
 \section{Conlusion}
 
-\cite{DevenowRationalHerdingInFinancialEconomics}
+\blindtext
 
 \newpage
 
