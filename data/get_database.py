@@ -7,7 +7,7 @@ Created on Mon Dec 13 21:03:23 2021
 
 
 
-pip install yfinance
+#pip install yfinance
 
 import yfinance as yf
 import pandas as pd
@@ -43,3 +43,5 @@ def get_database ():
     data.to_csv(res)
     
     return
+
+get_database()
