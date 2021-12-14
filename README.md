@@ -31,7 +31,7 @@ Data: Some insights into big pharma companies financial performance.
 
 Noteworthy of the libraries required for the project are two libraries for data retrieval:
 
-Insert Data Sources here!!!!!!!!!!!
+Yahoo Finance
 
 
 ## Bugs
