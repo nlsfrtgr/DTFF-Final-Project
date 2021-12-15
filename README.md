@@ -4,8 +4,6 @@
 
 Final assignment for the course Digital Tools for Finance at UZH.
 
-Data: Some insights into big pharma companies financial performance.
-
 * * *
 ### Contribution
 - Greta Benetazzo 20-741-104: Beamer Presentation
@@ -18,9 +16,7 @@ Data: Some insights into big pharma companies financial performance.
     .            
     ├── data                # Data used for our analysis
     ├── src                 # Code that performs analysis
-	│   └── output              # Charts outputted from code
-	├── temp                # Files of previous project
-    │   └── reports          # Research from previous project  
+    |	└── output              # Charts outputted from code                    
     |── text                 # Documentation files 
     │   ├── presentation        # Presentation of project
     │   └── report            # Report of project
